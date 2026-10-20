@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Matrix Collection - HMM Edition</title>
+
+<style>
+body{
+    margin:0;
+    background:#000;
+    color:#00ff66;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    min-height:100vh;
+
+    background-image:
+      radial-gradient(circle at center, #0c0c0c 0%, #000 80%);
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+h1{
+    font-size:4em;
+    margin-bottom:10px;
+    text-shadow:0 0 20px #00ff66;
+}
+
+.subtitle{
+    color:#ccc;
+    margin-bottom:50px;
+}
+
+.pill-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#111;
+    border:1px solid #333;
+    border-radius:15px;
+    padding:30px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 25px rgba(0,255,100,.5);
+}
+
+.pill{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    margin:0 auto 20px;
+}
+
+.red { background:#ff2e2e; }
+.blue{ background:#2e7bff; }
+.white{
+    background:#ffffff;
+    border:2px solid #ddd;
+}
+
+a.button{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    text-decoration:none;
+    color:white;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.red-btn { background:#ff2e2e; }
+.blue-btn{ background:#2e7bff; }
+.white-btn{
+    background:#999;
+    color:black;
+}
+
+.footer{
+    margin-top:60px;
+    color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>THE MATRIX</h1>
+
+<p class="subtitle">
+Choose Your Pill
+</p>
+
+<div class="pill-grid">
+
+<div class="card">
+    <div class="pill red"></div>
+    <h2>RED PILL</h2>
+
+    <p>
+      Reality is not a simulation.<br>
+      But that meeting could have been an email.
+    </p>
+
+    <a class="button red-btn"
+       href="red_pill.png"
+       target="_blank">
+       Choose Truth
+    </a>
+</div>
+
+<div class="card">
+    <div class="pill blue"></div>
+    <h2>BLUE PILL</h2>
+
+    <p>
+      You chose comfort.<br>
+      A follow-up meeting has been scheduled.
+    </p>
+
+    <a class="button blue-btn"
+       href="blue_pill.png"
+       target="_blank">
+       Stay Comfortable
+    </a>
+</div>
+
+<div class="card">
+    <div class="pill white"></div>
+    <h2>WHITE PILL</h2>
+
+    <p>
+      You chose HMM.<br>
+      FOREVER HMM. FOREVER STAY.
+    </p>
+
+    <a class="button white-btn"
+       href="white_pill.png"
+       target="_blank">
+       Join HMM Forever
+    </a>
+</div>
+
+</div>
+
+<div class="footer">
+    WAKE UP | TRACK CONTAINERS | REPEAT
+</div>
+
+</div>
+
+</body>
+</html>
